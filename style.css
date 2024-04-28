@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Ubuntu, Arial;
+}
+
+#contenitore {
+    background-color: rgba(0,0,0,0.5);
+    display: block;
+    width: 75%;
+    height: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 100px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    height: 100px;
+}
+
+#contenitore h1 {
+    color: #08dc04;
+    text-align: center;
+}
+
+nav {
+    display: block;
+    background-color: #08dc04;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section {
+    margin-left: 20px;
+    width: 60%;
+}
+
+section h3:before {
+    content: "■ "
+}
+
+.eta:before {
+    content: "→ "
+}
+
+.stato-carica {
+    display: inline-block;
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cento {
+    background-color: #1ec31e;
+    width: 100%;
+}
+
+.sessanta {
+    background-color: #f5b453;
+    width: 60%;
+}
+
+.trenta {
+    background-color: #be4141;
+    width: 30%;
+}
